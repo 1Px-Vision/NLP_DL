@@ -10,3 +10,13 @@ To pass the project, you need to complete Steps 1-3. Step 4 provides references 
 * Step 2: Build a Most Frequent Class tagger to use as a baseline
 * Step 3: Build an HMM Part of Speech tagger and compare to the MFC baseline
 * Step 4: (Optional) Improve the HMM tagger
+
+## Included in this repository 
+
+* The code used to create and train the Agent
+* HMM Tagger.ipynb - notebook containing the challenge for this project
+* Includes HMM Tagger.html, which is an HTML copy of the notebook showing the output from executing all cells
+* Includes Baseline Tagger Implementation on HMM Tagger.ipynb
+* Includes Calculating Tag Counts Implementation on HMM Tagger.ipynb
+* Includes Basic HMM Tagger Implementation on HMM Tagger.ipynb
+* This README.md file
