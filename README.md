@@ -30,6 +30,22 @@ This project focuses on machine translation, the task of automatically translati
   *Python
   * PyTorch
   * NLTK
+ 
+### 3. DNN Speech Recognizer
+#### Description:
+This project involves building a Deep Neural Network (DNN) based speech recognizer, capable of converting spoken language into text. The project covers preprocessing of audio data, feature extraction, and training of a DNN model to recognize and transcribe speech. The model is evaluated on accuracy and its ability to generalize to different speakers and accents.
+
+#### Key Features:
+
+* Audio data preprocessing and feature extraction
+* Training and evaluation of DNN for speech recognition
+* Handling different speaker characteristics and noise levels
+
+#### Technologies Used:
+* Python
+* PyTorch
+* LibROSA
+* SpeechRecognition
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
