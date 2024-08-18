@@ -30,3 +30,10 @@ This project focuses on machine translation, the task of automatically translati
   *Python
   * PyTorch
   * NLTK
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
+
+## Contact
+For any questions or inquiries, please contact caoq@1px-vision.com
+
