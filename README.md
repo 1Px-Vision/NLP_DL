@@ -15,3 +15,8 @@ This project involves building a Part of Speech (POS) tagger, a fundamental tool
   * Python
   * Pomegranate
   * NLTK
+
+
+### 2. Machine Translation
+#### Description:
+This project focuses on machine translation, the task of automatically translating text from one language to another. The project involves training a sequence-to-sequence model with attention mechanisms to translate sentences between languages (e.g., English to French). The model is designed to handle varying sentence lengths and capture the context of words in a sentence to improve translation accuracy.
