@@ -31,6 +31,11 @@ You can use the following links to navigate through the notebook:
 
 We start by examining the dataset that will be utilized to train and evaluate your pipeline. [LibriSpeech](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf) is an extensive corpus of English-read speech, specifically created for training and assessing models for Automatic Speech Recognition (ASR). The dataset comprises 1,000 hours of speech derived from audiobooks. For this project, we'll work with a smaller subset, as training on the full dataset would require considerable time. However, once you have completed this project, you are encouraged to explore the larger dataset available online if you wish to delve deeper.
 
+## Neural Network Architectures
+In this section, you'll explore different neural network architectures
+
+### Model 0: RNN
+The first acoustic model you'll be using is an RNN, known for its ability to effectively model sequential data. As illustrated in the figure below, the RNN provided will process the time sequence of audio features as its input.
 
 ## Included in this repository 
 
