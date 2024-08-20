@@ -26,3 +26,7 @@ You can use the following links to navigate through the notebook:
 * Compare the Models
 * Final Model
 * **STEP 3:** Obtain Predictions
+
+## The Data
+
+We start by examining the dataset that will be utilized to train and evaluate your pipeline. LibriSpeech is an extensive corpus of English-read speech, specifically created for training and assessing models for Automatic Speech Recognition (ASR). The dataset comprises 1,000 hours of speech derived from audiobooks. For this project, we'll work with a smaller subset, as training on the full dataset would require considerable time. However, once you have completed this project, you are encouraged to explore the larger dataset available online if you wish to delve deeper.
