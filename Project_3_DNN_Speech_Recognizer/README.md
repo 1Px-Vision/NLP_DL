@@ -66,6 +66,8 @@ Feel free to adjust the provided unit values to optimize performance. You can mo
 
 Refer to the Keras documentation to learn more about the Bidirectional wrapper. In this architecture, a single bidirectional RNN layer is followed by a TimeDistributed dense layer. The advantages of using a bidirectional RNN are well explained in this [paper](https://www.cs.toronto.edu/~hinton/absps/DRNN_speech.pdf).
 
+![Model_4_RNN](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_3_DNN_Speech_Recognizer/Model_4_RNN.jpg)
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
