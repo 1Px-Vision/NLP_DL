@@ -5,3 +5,5 @@ In this notebook, you'll develop a deep neural network to serve as a key compone
 ## Introduction
 
 In this notebook, you'll develop a deep neural network designed to operate within an end-to-end automatic speech recognition (ASR) pipeline. Upon completion, your pipeline will take raw audio as input and generate a predicted transcription of the spoken language. The overall structure of the pipeline is illustrated in the figure below.
+
+![Figure_P](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_3_DNN_Speech_Recognizer/DDN_Speech.jpg)
