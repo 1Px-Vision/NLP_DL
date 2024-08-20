@@ -45,6 +45,8 @@ At each time step, the speaker articulates one of 28 possible characters, which 
 
 Explore the Keras documentation to understand the TimeDistributed wrapper and the BatchNormalization layer. In this architecture, batch normalization will be incorporated into the recurrent layer to accelerate training. The TimeDistributed layer will be utilized to capture more intricate patterns in the dataset. An unrolled view of the architecture is shown below.
 
+![Model_1_RNN](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_3_DNN_Speech_Recognizer/Model_1_RNN.jpg)
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
