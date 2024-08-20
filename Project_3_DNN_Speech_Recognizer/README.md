@@ -47,6 +47,12 @@ Explore the Keras documentation to understand the TimeDistributed wrapper and th
 
 ![Model_1_RNN](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_3_DNN_Speech_Recognizer/Model_1_RNN.jpg)
 
+### Model 2: CNN + RNN + TimeDistributed Dense
+The cnn_rnn_model architecture introduces an added layer of complexity by incorporating a 1D convolutional layer.
+
+
+This layer includes various parameters that can be optionally adjusted when using the cnn_rnn_model module. We offer example starting parameters that may be helpful if you opt to use spectrogram audio features. If you prefer to use **MFCC features**, these parameters will need to be fine-tuned. Please note that the current architecture only supports **'same'** or **'valid'** values for the conv_border_mode argument. When fine-tuning, ensure that the chosen settings do not reduce the size of the convolutional layer excessively. If the temporal length of the CNN layer becomes shorter than the transcribed text label, an error will occur. Before executing the code cell below, you must modify the cnn_rnn_model function in sample_models.py. Specifically, add batch normalization to the recurrent layer and retain the same TimeDistributed layer as previously used.
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
