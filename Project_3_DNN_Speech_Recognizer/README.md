@@ -62,6 +62,10 @@ Examine the code in rnn_model, which employs a single recurrent layer. Now, defi
 
 Feel free to adjust the provided unit values to optimize performance. You can modify the value of recur_layers, as long as the final value is greater than 1. To quickly verify that you've correctly implemented the additional functionality in deep_rnn_model, ensure that the architecture you specify here matches rnn_model when recur_layers is set to 1.
 
+### Model 4: Bidirectional RNN with TimeDistributed Dense Layer
+
+Refer to the Keras documentation to learn more about the Bidirectional wrapper. In this architecture, a single bidirectional RNN layer is followed by a TimeDistributed dense layer. The advantages of using a bidirectional RNN are well explained in this [paper](https://www.cs.toronto.edu/~hinton/absps/DRNN_speech.pdf).
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
