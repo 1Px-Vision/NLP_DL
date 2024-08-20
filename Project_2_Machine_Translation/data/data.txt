@@ -1,1 +1,1 @@
-
+The data can be found in the directories data/small_vocab_en and data/small_vocab_fr. The small_vocab_en file contains English sentences, while the small_vocab_fr file holds their corresponding French translations. You can load the English and French data from these files by running the cell below.
