@@ -72,4 +72,7 @@ Refer to the Keras documentation to learn more about the Bidirectional wrapper. 
 
 * The code utilized for developing the DDN Speech Recognizer Project
 * vui_notebook.ipynb - notebook containing the challenge for this project
+* 
+* char_map.py,data_generator.py,sample_models.py,train_utils.py files
+* train_corpus.json and valid_corpus.json
 * This README.md file
