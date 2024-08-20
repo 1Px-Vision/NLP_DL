@@ -72,7 +72,8 @@ Refer to the Keras documentation to learn more about the Bidirectional wrapper. 
 
 * The code utilized for developing the DDN Speech Recognizer Project
 * vui_notebook.ipynb - notebook containing the challenge for this project
-* Includes vui_notebook.html, which is an HTML copy of the notebook showing the output from executing all cells
+* Includes report.html, which is an HTML copy of the notebook showing the output from executing all cells
 * char_map.py,data_generator.py,sample_models.py,train_utils.py files
 * train_corpus.json and valid_corpus.json
+* Results directory with model *.h5 files
 * This README.md file
