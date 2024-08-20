@@ -54,6 +54,13 @@ The cnn_rnn_model architecture introduces an added layer of complexity by incorp
 
 This layer includes various parameters that can be optionally adjusted when using the cnn_rnn_model module. We offer example starting parameters that may be helpful if you opt to use spectrogram audio features. If you prefer to use **MFCC features**, these parameters will need to be fine-tuned. Please note that the current architecture only supports **'same'** or **'valid'** values for the conv_border_mode argument. When fine-tuning, ensure that the chosen settings do not reduce the size of the convolutional layer excessively. If the temporal length of the CNN layer becomes shorter than the transcribed text label, an error will occur. Before executing the code cell below, you must modify the cnn_rnn_model function in sample_models.py. Specifically, add batch normalization to the recurrent layer and retain the same TimeDistributed layer as previously used.
 
+### Model 3: Deeper RNN + TimeDistributed Dense
+
+Examine the code in rnn_model, which employs a single recurrent layer. Now, define the architecture in deep_rnn_model to utilize a variable number of recurrent layers, specified by recur_layers. The diagram below illustrates the architecture that should be generated when recur_layers=2. In this case, the output sequence from the first recurrent layer is used as the input for the subsequent recurrent layer.
+
+
+Feel free to adjust the provided unit values to optimize performance. You can modify the value of recur_layers, as long as the final value is greater than 1. To quickly verify that you've correctly implemented the additional functionality in deep_rnn_model, ensure that the architecture you specify here matches rnn_model when recur_layers is set to 1.
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
