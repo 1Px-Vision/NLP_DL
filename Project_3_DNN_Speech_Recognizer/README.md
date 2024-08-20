@@ -58,6 +58,7 @@ This layer includes various parameters that can be optionally adjusted when usin
 
 Examine the code in rnn_model, which employs a single recurrent layer. Now, define the architecture in deep_rnn_model to utilize a variable number of recurrent layers, specified by recur_layers. The diagram below illustrates the architecture that should be generated when recur_layers=2. In this case, the output sequence from the first recurrent layer is used as the input for the subsequent recurrent layer.
 
+![Model_3_RNN](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_3_DNN_Speech_Recognizer/Model_3_RNN.jpg)
 
 Feel free to adjust the provided unit values to optimize performance. You can modify the value of recur_layers, as long as the final value is greater than 1. To quickly verify that you've correctly implemented the additional functionality in deep_rnn_model, ensure that the architecture you specify here matches rnn_model when recur_layers is set to 1.
 
