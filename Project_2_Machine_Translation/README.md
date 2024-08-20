@@ -35,5 +35,5 @@ After working with these initial models, you'll move on to build a more complex 
 * Includes Machine_Translation.html, which is an HTML copy of the notebook showing the output from executing all cells
 * The data can be found in the directories data/small_vocab_en and data/small_vocab_fr. The small_vocab_en file contains English sentences, while the 
    small_vocab_fr file holds their corresponding French translations. You can load the English and French data from these files by running the cell below.
-* project_tests.py and helper.py  
+* project_tests.py and helper.py  files
 * This README.md file
