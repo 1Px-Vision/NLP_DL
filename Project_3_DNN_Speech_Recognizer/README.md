@@ -37,6 +37,9 @@ In this section, you'll explore different neural network architectures
 ### Model 0: RNN
 The first acoustic model you'll be using is an RNN, known for its ability to effectively model sequential data. As illustrated in the figure below, the RNN provided will process the time sequence of audio features as its input.
 
+
+At each time step, the speaker articulates one of 28 possible characters, which includes the 26 letters of the English alphabet, a space character (" "), and an apostrophe ('). The RNN's output at each time step is a probability vector with 29 entries. Each entry in the vector corresponds to the likelihood of a specific character being spoken at that time. The 29th entry is reserved for an empty "character" used to pad training examples within batches of varying lengths. If you're curious about how characters are mapped to indices in the probability vector, you can check the char_map.py file in the repository. The figure below presents a rolled depiction of the RNN, highlighting the output layer in more detail
+
 ## Included in this repository 
 
 * The code utilized for developing the DDN Speech Recognizer Project
