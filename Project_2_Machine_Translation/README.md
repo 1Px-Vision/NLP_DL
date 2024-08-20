@@ -22,3 +22,5 @@ In this section, you'll explore different neural network architectures, starting
 * **Model 3:** A Bidirectional RNN
 * **Model 4:** An optional Encoder-Decoder RNN
 After working with these initial models, you'll move on to build a more complex architecture aimed at surpassing the performance of the previous four.
+
+![RNN_Model](https://github.com/1Px-Vision/NLP_DL/blob/main/Project_2_Machine_Translation/Model_RNN.jpg)
