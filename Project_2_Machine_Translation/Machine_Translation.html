@@ -7531,7 +7531,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">load_ext</span> autoreload
@@ -7548,9 +7548,12 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>The autoreload extension is already loaded. To reload it, use:
-  %reload_ext autoreload
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>2024-08-21 01:33:07.431297: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-21 01:33:07.431348: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-21 01:33:07.431394: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-21 01:33:07.441456: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 </pre>
 </div>
 </div>
@@ -7561,7 +7564,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Should return keras==2.14.0 and tf-keras==2.14.1</span>
@@ -7590,7 +7593,7 @@ tf-keras==2.14.1
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Should return tensorflow==2.14.0</span>
@@ -7623,7 +7626,7 @@ tensorflow-metadata==1.15.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">collections</span>
@@ -7661,7 +7664,7 @@ tensorflow-metadata==1.15.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load English data</span>
@@ -7704,7 +7707,7 @@ tensorflow-metadata==1.15.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">sample_i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
@@ -7748,7 +7751,7 @@ small_vocab_fr Line 2:  les états-unis est généralement froid en juillet , et
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">english_words_counter</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">Counter</span><span class="p">([</span><span class="n">word</span> <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">english_sentences</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">sentence</span><span class="o">.</span><span class="n">split</span><span class="p">()])</span>
@@ -7815,7 +7818,7 @@ small_vocab_fr Line 2:  les états-unis est généralement froid en juillet , et
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -7886,7 +7889,7 @@ Sequence 3 in x
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pad</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
@@ -7949,7 +7952,7 @@ Sequence 3 in x
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">preprocess</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
@@ -8030,7 +8033,7 @@ You will begin by training four relatively simple architectures.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">logits_to_text</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="n">tokenizer</span><span class="p">):</span>
@@ -8081,7 +8084,7 @@ A basic RNN model is a good baseline for sequence data.  In this model, you'll b
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">simple_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">output_sequence_length</span><span class="p">,</span> <span class="n">english_vocab_size</span><span class="p">,</span> <span class="n">french_vocab_size</span><span class="p">):</span>
@@ -8132,16 +8135,16 @@ A basic RNN model is a good baseline for sequence data.  In this model, you'll b
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>2024-08-20 21:14:47.122032: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.134463: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.137835: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.143971: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.147434: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.152974: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.474037: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.476249: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.478366: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2024-08-20 21:14:47.480361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13764 MB memory:  -&gt; device: 0, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5
+<pre>2024-08-21 01:34:14.758133: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:14.769325: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:14.772589: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:14.777880: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:14.781122: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:14.784134: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:15.105524: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:15.107652: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:15.109673: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-21 01:34:15.111597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13764 MB memory:  -&gt; device: 0, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5
 </pre>
 </div>
 </div>
@@ -8155,38 +8158,38 @@ A basic RNN model is a good baseline for sequence data.  In this model, you'll b
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>2024-08-20 21:14:51.952979: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:442] Loaded cuDNN version 8600
-2024-08-20 21:14:57.161098: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7c2d24275870 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
-2024-08-20 21:14:57.161165: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
-2024-08-20 21:14:57.299783: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
-2024-08-20 21:14:57.993162: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+<pre>2024-08-21 01:34:18.808576: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:442] Loaded cuDNN version 8600
+2024-08-21 01:34:22.188450: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7c4e5068a710 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-08-21 01:34:22.188493: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2024-08-21 01:34:22.194375: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-08-21 01:34:22.350079: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>108/108 [==============================] - 16s 54ms/step - loss: 2.3924 - accuracy: 0.4981 - val_loss: nan - val_accuracy: 0.5795
+<pre>108/108 [==============================] - 12s 54ms/step - loss: 2.3936 - accuracy: 0.4952 - val_loss: nan - val_accuracy: 0.5777
 Epoch 2/10
-108/108 [==============================] - 5s 49ms/step - loss: 1.5254 - accuracy: 0.5901 - val_loss: nan - val_accuracy: 0.6208
+108/108 [==============================] - 5s 49ms/step - loss: 1.5269 - accuracy: 0.5903 - val_loss: nan - val_accuracy: 0.6271
 Epoch 3/10
-108/108 [==============================] - 5s 49ms/step - loss: 1.3125 - accuracy: 0.6236 - val_loss: nan - val_accuracy: 0.6555
+108/108 [==============================] - 5s 49ms/step - loss: 1.3168 - accuracy: 0.6238 - val_loss: nan - val_accuracy: 0.6485
 Epoch 4/10
-108/108 [==============================] - 5s 49ms/step - loss: 1.1850 - accuracy: 0.6501 - val_loss: nan - val_accuracy: 0.6739
+108/108 [==============================] - 5s 49ms/step - loss: 1.1970 - accuracy: 0.6489 - val_loss: nan - val_accuracy: 0.6696
 Epoch 5/10
-108/108 [==============================] - 5s 50ms/step - loss: 1.1018 - accuracy: 0.6636 - val_loss: nan - val_accuracy: 0.6834
+108/108 [==============================] - 5s 50ms/step - loss: 1.1191 - accuracy: 0.6631 - val_loss: nan - val_accuracy: 0.6836
 Epoch 6/10
-108/108 [==============================] - 5s 50ms/step - loss: 1.0472 - accuracy: 0.6733 - val_loss: nan - val_accuracy: 0.6941
+108/108 [==============================] - 5s 50ms/step - loss: 1.0627 - accuracy: 0.6732 - val_loss: nan - val_accuracy: 0.6958
 Epoch 7/10
-108/108 [==============================] - 5s 50ms/step - loss: 1.0037 - accuracy: 0.6825 - val_loss: nan - val_accuracy: 0.6993
+108/108 [==============================] - 5s 50ms/step - loss: 1.0201 - accuracy: 0.6816 - val_loss: nan - val_accuracy: 0.7041
 Epoch 8/10
-108/108 [==============================] - 5s 51ms/step - loss: 0.9696 - accuracy: 0.6894 - val_loss: nan - val_accuracy: 0.7094
+108/108 [==============================] - 5s 50ms/step - loss: 0.9839 - accuracy: 0.6886 - val_loss: nan - val_accuracy: 0.7064
 Epoch 9/10
-108/108 [==============================] - 6s 51ms/step - loss: 0.9373 - accuracy: 0.6960 - val_loss: nan - val_accuracy: 0.7163
+108/108 [==============================] - 5s 50ms/step - loss: 0.9512 - accuracy: 0.6953 - val_loss: nan - val_accuracy: 0.7158
 Epoch 10/10
-108/108 [==============================] - 6s 52ms/step - loss: 0.9104 - accuracy: 0.7015 - val_loss: nan - val_accuracy: 0.7207
-1/1 [==============================] - 1s 562ms/step
-new jersey est parfois chaud en mois de il est il est en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+108/108 [==============================] - 5s 50ms/step - loss: 0.9227 - accuracy: 0.7003 - val_loss: nan - val_accuracy: 0.7203
+1/1 [==============================] - 0s 413ms/step
+new jersey est parfois chaud en mois de mai et il est en en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 </pre>
 </div>
 </div>
@@ -8210,7 +8213,7 @@ You've turned the words into ids, but there's a better representation of a word.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">embed_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">output_sequence_length</span><span class="p">,</span> <span class="n">english_vocab_size</span><span class="p">,</span> <span class="n">french_vocab_size</span><span class="p">):</span>
@@ -8291,27 +8294,27 @@ Trainable params: 1062745 (4.05 MB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 Epoch 1/10
-108/108 [==============================] - 12s 78ms/step - loss: 2.5314 - accuracy: 0.4989 - val_loss: 1.4237 - val_accuracy: 0.6352
+108/108 [==============================] - 11s 73ms/step - loss: 2.5046 - accuracy: 0.5054 - val_loss: 1.4056 - val_accuracy: 0.6391
 Epoch 2/10
-108/108 [==============================] - 7s 64ms/step - loss: 1.0254 - accuracy: 0.7242 - val_loss: 0.6863 - val_accuracy: 0.8013
+108/108 [==============================] - 6s 60ms/step - loss: 1.0152 - accuracy: 0.7269 - val_loss: 0.6851 - val_accuracy: 0.7992
 Epoch 3/10
-108/108 [==============================] - 7s 65ms/step - loss: 0.6347 - accuracy: 0.8078 - val_loss: 0.5089 - val_accuracy: 0.8382
+108/108 [==============================] - 6s 58ms/step - loss: 0.6328 - accuracy: 0.8071 - val_loss: 0.5051 - val_accuracy: 0.8390
 Epoch 4/10
-108/108 [==============================] - 7s 65ms/step - loss: 0.5012 - accuracy: 0.8392 - val_loss: 0.4166 - val_accuracy: 0.8639
+108/108 [==============================] - 6s 57ms/step - loss: 0.4941 - accuracy: 0.8414 - val_loss: 0.4125 - val_accuracy: 0.8627
 Epoch 5/10
-108/108 [==============================] - 7s 65ms/step - loss: 0.4235 - accuracy: 0.8612 - val_loss: 0.3582 - val_accuracy: 0.8816
+108/108 [==============================] - 6s 58ms/step - loss: 0.4137 - accuracy: 0.8648 - val_loss: 0.3547 - val_accuracy: 0.8825
 Epoch 6/10
-108/108 [==============================] - 7s 61ms/step - loss: 0.3751 - accuracy: 0.8757 - val_loss: 0.3309 - val_accuracy: 0.8882
+108/108 [==============================] - 6s 57ms/step - loss: 0.3650 - accuracy: 0.8793 - val_loss: 0.3201 - val_accuracy: 0.8923
 Epoch 7/10
-108/108 [==============================] - 7s 60ms/step - loss: 0.3386 - accuracy: 0.8867 - val_loss: 0.2972 - val_accuracy: 0.8994
+108/108 [==============================] - 6s 57ms/step - loss: 0.3264 - accuracy: 0.8915 - val_loss: 0.2893 - val_accuracy: 0.9025
 Epoch 8/10
-108/108 [==============================] - 6s 60ms/step - loss: 0.3102 - accuracy: 0.8960 - val_loss: 0.2718 - val_accuracy: 0.9081
+108/108 [==============================] - 6s 57ms/step - loss: 0.2987 - accuracy: 0.9002 - val_loss: 0.2636 - val_accuracy: 0.9114
 Epoch 9/10
-108/108 [==============================] - 6s 60ms/step - loss: 0.2858 - accuracy: 0.9039 - val_loss: 0.2562 - val_accuracy: 0.9127
+108/108 [==============================] - 6s 58ms/step - loss: 0.2780 - accuracy: 0.9065 - val_loss: 0.2507 - val_accuracy: 0.9159
 Epoch 10/10
-108/108 [==============================] - 6s 60ms/step - loss: 0.2684 - accuracy: 0.9094 - val_loss: 0.2423 - val_accuracy: 0.9172
-1/1 [==============================] - 0s 387ms/step
-new jersey est parfois calme en l' et il est neigeux en avril &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+108/108 [==============================] - 6s 57ms/step - loss: 0.2609 - accuracy: 0.9119 - val_loss: 0.2349 - val_accuracy: 0.9199
+1/1 [==============================] - 0s 398ms/step
+new jersey est parfois calme en l' automne il il est neigeux en avril &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 </pre>
 </div>
 </div>
@@ -8334,7 +8337,7 @@ One restriction of a RNN is that it can't see the future input, only the past.  
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">bd_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">output_sequence_length</span><span class="p">,</span> <span class="n">english_vocab_size</span><span class="p">,</span> <span class="n">french_vocab_size</span><span class="p">):</span>
@@ -8411,27 +8414,27 @@ Trainable params: 1062745 (4.05 MB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 Epoch 1/10
-108/108 [==============================] - 11s 77ms/step - loss: 2.5290 - accuracy: 0.5013 - val_loss: 1.4184 - val_accuracy: 0.6310
+108/108 [==============================] - 11s 75ms/step - loss: 2.5221 - accuracy: 0.4986 - val_loss: 1.4372 - val_accuracy: 0.6305
 Epoch 2/10
-108/108 [==============================] - 7s 65ms/step - loss: 1.0322 - accuracy: 0.7198 - val_loss: 0.6985 - val_accuracy: 0.7972
+108/108 [==============================] - 6s 58ms/step - loss: 1.0241 - accuracy: 0.7260 - val_loss: 0.6908 - val_accuracy: 0.8008
 Epoch 3/10
-108/108 [==============================] - 7s 66ms/step - loss: 0.6411 - accuracy: 0.8063 - val_loss: 0.5092 - val_accuracy: 0.8378
+108/108 [==============================] - 6s 58ms/step - loss: 0.6352 - accuracy: 0.8087 - val_loss: 0.5085 - val_accuracy: 0.8390
 Epoch 4/10
-108/108 [==============================] - 7s 65ms/step - loss: 0.4994 - accuracy: 0.8403 - val_loss: 0.4097 - val_accuracy: 0.8660
+108/108 [==============================] - 6s 58ms/step - loss: 0.4983 - accuracy: 0.8407 - val_loss: 0.4173 - val_accuracy: 0.8638
 Epoch 5/10
-108/108 [==============================] - 7s 62ms/step - loss: 0.4169 - accuracy: 0.8636 - val_loss: 0.3522 - val_accuracy: 0.8833
+108/108 [==============================] - 6s 58ms/step - loss: 0.4180 - accuracy: 0.8631 - val_loss: 0.3584 - val_accuracy: 0.8804
 Epoch 6/10
-108/108 [==============================] - 7s 60ms/step - loss: 0.3680 - accuracy: 0.8785 - val_loss: 0.3221 - val_accuracy: 0.8915
+108/108 [==============================] - 6s 58ms/step - loss: 0.3660 - accuracy: 0.8784 - val_loss: 0.3151 - val_accuracy: 0.8942
 Epoch 7/10
-108/108 [==============================] - 7s 61ms/step - loss: 0.3316 - accuracy: 0.8897 - val_loss: 0.2891 - val_accuracy: 0.9027
+108/108 [==============================] - 6s 58ms/step - loss: 0.3297 - accuracy: 0.8895 - val_loss: 0.2909 - val_accuracy: 0.9017
 Epoch 8/10
-108/108 [==============================] - 6s 59ms/step - loss: 0.3030 - accuracy: 0.8987 - val_loss: 0.2706 - val_accuracy: 0.9091
+108/108 [==============================] - 6s 58ms/step - loss: 0.3010 - accuracy: 0.8989 - val_loss: 0.2705 - val_accuracy: 0.9077
 Epoch 9/10
-108/108 [==============================] - 6s 59ms/step - loss: 0.2819 - accuracy: 0.9052 - val_loss: 0.2511 - val_accuracy: 0.9149
+108/108 [==============================] - 6s 58ms/step - loss: 0.2821 - accuracy: 0.9047 - val_loss: 0.2500 - val_accuracy: 0.9148
 Epoch 10/10
-108/108 [==============================] - 6s 59ms/step - loss: 0.2618 - accuracy: 0.9117 - val_loss: 0.2373 - val_accuracy: 0.9194
-1/1 [==============================] - 0s 386ms/step
-new jersey est parfois calme en l' automne l' automne et neigeux en en avril &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+108/108 [==============================] - 6s 57ms/step - loss: 0.2626 - accuracy: 0.9110 - val_loss: 0.2388 - val_accuracy: 0.9187
+1/1 [==============================] - 0s 378ms/step
+new jersey est parfois calme en l' automne l' automne est neigeux en avril &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 </pre>
 </div>
 </div>
@@ -8454,7 +8457,7 @@ new jersey est parfois calme en l' automne l' automne et neigeux en en avril &lt
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">encdec_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">output_sequence_length</span><span class="p">,</span> <span class="n">english_vocab_size</span><span class="p">,</span> <span class="n">french_vocab_size</span><span class="p">):</span>
@@ -8539,32 +8542,32 @@ Trainable params: 1210457 (4.62 MB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 Epoch 1/10
-108/108 [==============================] - 14s 82ms/step - loss: 2.4729 - accuracy: 0.4749 - val_loss: 1.7852 - val_accuracy: 0.5674
+108/108 [==============================] - 13s 79ms/step - loss: 2.4594 - accuracy: 0.4741 - val_loss: 1.7567 - val_accuracy: 0.5738
 Epoch 2/10
-108/108 [==============================] - 8s 76ms/step - loss: 1.6044 - accuracy: 0.5819 - val_loss: 1.4282 - val_accuracy: 0.6051
+108/108 [==============================] - 7s 69ms/step - loss: 1.6068 - accuracy: 0.5816 - val_loss: 1.4257 - val_accuracy: 0.6116
 Epoch 3/10
-108/108 [==============================] - 8s 77ms/step - loss: 1.4014 - accuracy: 0.6137 - val_loss: 1.3074 - val_accuracy: 0.6392
+108/108 [==============================] - 8s 70ms/step - loss: 1.4068 - accuracy: 0.6145 - val_loss: 1.3294 - val_accuracy: 0.6281
 Epoch 4/10
-108/108 [==============================] - 8s 76ms/step - loss: 1.3145 - accuracy: 0.6336 - val_loss: 1.2487 - val_accuracy: 0.6528
+108/108 [==============================] - 8s 70ms/step - loss: 1.3156 - accuracy: 0.6342 - val_loss: 1.2428 - val_accuracy: 0.6554
 Epoch 5/10
-108/108 [==============================] - 8s 74ms/step - loss: 1.2618 - accuracy: 0.6457 - val_loss: 1.2145 - val_accuracy: 0.6594
+108/108 [==============================] - 8s 71ms/step - loss: 1.2467 - accuracy: 0.6496 - val_loss: 1.1780 - val_accuracy: 0.6646
 Epoch 6/10
-108/108 [==============================] - 8s 73ms/step - loss: 1.2136 - accuracy: 0.6556 - val_loss: 1.1419 - val_accuracy: 0.6731
+108/108 [==============================] - 8s 70ms/step - loss: 1.1880 - accuracy: 0.6618 - val_loss: 1.1394 - val_accuracy: 0.6706
 Epoch 7/10
-108/108 [==============================] - 8s 72ms/step - loss: 1.1546 - accuracy: 0.6678 - val_loss: 1.1022 - val_accuracy: 0.6796
+108/108 [==============================] - 7s 70ms/step - loss: 1.1986 - accuracy: 0.6589 - val_loss: 1.1602 - val_accuracy: 0.6669
 Epoch 8/10
-108/108 [==============================] - 8s 72ms/step - loss: 1.1305 - accuracy: 0.6711 - val_loss: 1.0615 - val_accuracy: 0.6865
+108/108 [==============================] - 7s 69ms/step - loss: 1.1493 - accuracy: 0.6693 - val_loss: 1.0904 - val_accuracy: 0.6802
 Epoch 9/10
-108/108 [==============================] - 8s 72ms/step - loss: 1.0802 - accuracy: 0.6829 - val_loss: 1.0346 - val_accuracy: 0.6936
+108/108 [==============================] - 7s 69ms/step - loss: 1.0977 - accuracy: 0.6807 - val_loss: 1.0529 - val_accuracy: 0.6906
 Epoch 10/10
-108/108 [==============================] - 8s 72ms/step - loss: 1.1263 - accuracy: 0.6696 - val_loss: 1.0472 - val_accuracy: 0.6909
+108/108 [==============================] - 7s 69ms/step - loss: 1.0886 - accuracy: 0.6823 - val_loss: 1.1763 - val_accuracy: 0.6610
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;keras.src.callbacks.History at 0x7c2fb533d390&gt;</pre>
+<pre>&lt;keras.src.callbacks.History at 0x7c50d86c7710&gt;</pre>
 </div>
 </div>
 </div>
@@ -8585,7 +8588,7 @@ Epoch 10/10
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">model_final</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">output_sequence_length</span><span class="p">,</span> <span class="n">english_vocab_size</span><span class="p">,</span> <span class="n">french_vocab_size</span><span class="p">):</span>
@@ -8677,27 +8680,27 @@ Trainable params: 828120 (3.16 MB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 Epoch 1/10
-108/108 [==============================] - 19s 87ms/step - loss: 2.8874 - accuracy: 0.4484 - val_loss: nan - val_accuracy: 0.5115
+108/108 [==============================] - 19s 91ms/step - loss: 2.9461 - accuracy: 0.4483 - val_loss: nan - val_accuracy: 0.5107
 Epoch 2/10
-108/108 [==============================] - 7s 63ms/step - loss: 1.7916 - accuracy: 0.5495 - val_loss: nan - val_accuracy: 0.6172
+108/108 [==============================] - 6s 56ms/step - loss: 1.8448 - accuracy: 0.5434 - val_loss: nan - val_accuracy: 0.5960
 Epoch 3/10
-108/108 [==============================] - 7s 61ms/step - loss: 1.4513 - accuracy: 0.6194 - val_loss: nan - val_accuracy: 0.6566
+108/108 [==============================] - 6s 58ms/step - loss: 1.4668 - accuracy: 0.6152 - val_loss: nan - val_accuracy: 0.6584
 Epoch 4/10
-108/108 [==============================] - 7s 61ms/step - loss: 1.2857 - accuracy: 0.6519 - val_loss: nan - val_accuracy: 0.6800
+108/108 [==============================] - 6s 57ms/step - loss: 1.2705 - accuracy: 0.6551 - val_loss: nan - val_accuracy: 0.6723
 Epoch 5/10
-108/108 [==============================] - 7s 62ms/step - loss: 1.1701 - accuracy: 0.6736 - val_loss: nan - val_accuracy: 0.7002
+108/108 [==============================] - 6s 59ms/step - loss: 1.1532 - accuracy: 0.6768 - val_loss: nan - val_accuracy: 0.7000
 Epoch 6/10
-108/108 [==============================] - 6s 59ms/step - loss: 1.0994 - accuracy: 0.6887 - val_loss: nan - val_accuracy: 0.7162
+108/108 [==============================] - 6s 57ms/step - loss: 1.0860 - accuracy: 0.6905 - val_loss: nan - val_accuracy: 0.7164
 Epoch 7/10
-108/108 [==============================] - 6s 59ms/step - loss: 1.0228 - accuracy: 0.7062 - val_loss: nan - val_accuracy: 0.7280
+108/108 [==============================] - 6s 57ms/step - loss: 1.0286 - accuracy: 0.7029 - val_loss: nan - val_accuracy: 0.7140
 Epoch 8/10
-108/108 [==============================] - 6s 59ms/step - loss: 0.9740 - accuracy: 0.7160 - val_loss: nan - val_accuracy: 0.7338
+108/108 [==============================] - 6s 57ms/step - loss: 0.9785 - accuracy: 0.7124 - val_loss: nan - val_accuracy: 0.7275
 Epoch 9/10
-108/108 [==============================] - 6s 58ms/step - loss: 0.9354 - accuracy: 0.7238 - val_loss: nan - val_accuracy: 0.7457
+108/108 [==============================] - 6s 56ms/step - loss: 0.9281 - accuracy: 0.7242 - val_loss: nan - val_accuracy: 0.7479
 Epoch 10/10
-108/108 [==============================] - 6s 59ms/step - loss: 0.8724 - accuracy: 0.7384 - val_loss: nan - val_accuracy: 0.7577
+108/108 [==============================] - 6s 56ms/step - loss: 0.8761 - accuracy: 0.7365 - val_loss: nan - val_accuracy: 0.7571
 1/1 [==============================] - 1s 1s/step
-new jersey est parfois chaud pendant l'automne mais il est est en en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+new jersey est parfois chaud au l'automne et il est est en en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 </pre>
 </div>
 </div>
@@ -8719,7 +8722,7 @@ new jersey est parfois chaud pendant l'automne mais il est est en en &lt;PAD&gt;
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">final_predictions</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x_tk</span><span class="p">,</span> <span class="n">y_tk</span><span class="p">):</span>
@@ -8731,9 +8734,11 @@ new jersey est parfois chaud pendant l'automne mais il est est en en &lt;PAD&gt;
 <span class="sd">    :param y_tk: French tokenizer</span>
 <span class="sd">    """</span>
     <span class="c1"># TODO: Train neural network using model_final</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">pad</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">max_french_sequence_length</span><span class="p">)</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">model_final</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">y</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nb">len</span><span class="p">(</span><span class="n">x_tk</span><span class="o">.</span><span class="n">word_index</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_tk</span><span class="o">.</span><span class="n">word_index</span><span class="p">))</span>
-    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">validation_split</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">model_final</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span><span class="n">y</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                        <span class="nb">len</span><span class="p">(</span><span class="n">x_tk</span><span class="o">.</span><span class="n">word_index</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span>
+                        <span class="nb">len</span><span class="p">(</span><span class="n">y_tk</span><span class="o">.</span><span class="n">word_index</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">validation_split</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
 
     
     <span class="c1">## DON'T EDIT ANYTHING BELOW THIS LINE</span>
@@ -8767,53 +8772,91 @@ new jersey est parfois chaud pendant l'automne mais il est est en en &lt;PAD&gt;
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Epoch 1/20
-108/108 [==============================] - 18s 86ms/step - loss: 2.8908 - accuracy: 0.4516 - val_loss: nan - val_accuracy: 0.5186
-Epoch 2/20
-108/108 [==============================] - 7s 63ms/step - loss: 1.7960 - accuracy: 0.5491 - val_loss: nan - val_accuracy: 0.6192
-Epoch 3/20
-108/108 [==============================] - 7s 63ms/step - loss: 1.4557 - accuracy: 0.6156 - val_loss: nan - val_accuracy: 0.6557
-Epoch 4/20
-108/108 [==============================] - 7s 62ms/step - loss: 1.2873 - accuracy: 0.6497 - val_loss: nan - val_accuracy: 0.6837
-Epoch 5/20
-108/108 [==============================] - 6s 60ms/step - loss: 1.1686 - accuracy: 0.6739 - val_loss: nan - val_accuracy: 0.6996
-Epoch 6/20
-108/108 [==============================] - 6s 59ms/step - loss: 1.1004 - accuracy: 0.6884 - val_loss: nan - val_accuracy: 0.7128
-Epoch 7/20
-108/108 [==============================] - 6s 59ms/step - loss: 1.0464 - accuracy: 0.6997 - val_loss: nan - val_accuracy: 0.7217
-Epoch 8/20
-108/108 [==============================] - 6s 60ms/step - loss: 0.9993 - accuracy: 0.7103 - val_loss: nan - val_accuracy: 0.7311
-Epoch 9/20
-108/108 [==============================] - 6s 58ms/step - loss: 0.9509 - accuracy: 0.7200 - val_loss: nan - val_accuracy: 0.7422
-Epoch 10/20
-108/108 [==============================] - 6s 58ms/step - loss: 0.9026 - accuracy: 0.7306 - val_loss: nan - val_accuracy: 0.7498
-Epoch 11/20
-108/108 [==============================] - 6s 58ms/step - loss: 0.8604 - accuracy: 0.7396 - val_loss: nan - val_accuracy: 0.7617
-Epoch 12/20
-108/108 [==============================] - 7s 61ms/step - loss: 0.8134 - accuracy: 0.7494 - val_loss: nan - val_accuracy: 0.7682
-Epoch 13/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.7685 - accuracy: 0.7601 - val_loss: nan - val_accuracy: 0.7813
-Epoch 14/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.7310 - accuracy: 0.7703 - val_loss: nan - val_accuracy: 0.7937
-Epoch 15/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.6899 - accuracy: 0.7818 - val_loss: nan - val_accuracy: 0.8045
-Epoch 16/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.6573 - accuracy: 0.7915 - val_loss: nan - val_accuracy: 0.8106
-Epoch 17/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.6312 - accuracy: 0.8000 - val_loss: nan - val_accuracy: 0.8290
-Epoch 18/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.5922 - accuracy: 0.8122 - val_loss: nan - val_accuracy: 0.8381
-Epoch 19/20
-108/108 [==============================] - 6s 60ms/step - loss: 0.5649 - accuracy: 0.8213 - val_loss: nan - val_accuracy: 0.8492
-Epoch 20/20
-108/108 [==============================] - 6s 59ms/step - loss: 0.5355 - accuracy: 0.8316 - val_loss: nan - val_accuracy: 0.8610
-WARNING:tensorflow:5 out of the last 5 calls to &lt;function Model.make_predict_function.&lt;locals&gt;.predict_function at 0x7c2fa1f3f920&gt; triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-1/1 [==============================] - 2s 2s/step
+<pre>Model: "sequential_11"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embedding_6 (Embedding)     (None, 15, 128)           25600     
+                                                                 
+ bidirectional_7 (Bidirecti  (None, 256)               198144    
+ onal)                                                           
+                                                                 
+ repeat_vector_5 (RepeatVec  (None, 21, 256)           0         
+ tor)                                                            
+                                                                 
+ bidirectional_8 (Bidirecti  (None, 21, 256)           296448    
+ onal)                                                           
+                                                                 
+ time_distributed_22 (TimeD  (None, 21, 512)           131584    
+ istributed)                                                     
+                                                                 
+ dropout_11 (Dropout)        (None, 21, 512)           0         
+                                                                 
+ time_distributed_23 (TimeD  (None, 21, 345)           176985    
+ istributed)                                                     
+                                                                 
+=================================================================
+Total params: 828761 (3.16 MB)
+Trainable params: 828761 (3.16 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Epoch 1/25
+108/108 [==============================] - 19s 83ms/step - loss: 2.9499 - accuracy: 0.4440 - val_loss: 2.0414 - val_accuracy: 0.5076
+Epoch 2/25
+108/108 [==============================] - 6s 55ms/step - loss: 1.8348 - accuracy: 0.5404 - val_loss: 1.5202 - val_accuracy: 0.6118
+Epoch 3/25
+108/108 [==============================] - 6s 55ms/step - loss: 1.4773 - accuracy: 0.6128 - val_loss: 1.2789 - val_accuracy: 0.6576
+Epoch 4/25
+108/108 [==============================] - 6s 56ms/step - loss: 1.2871 - accuracy: 0.6503 - val_loss: 1.1398 - val_accuracy: 0.6830
+Epoch 5/25
+108/108 [==============================] - 6s 55ms/step - loss: 1.1768 - accuracy: 0.6717 - val_loss: 1.0571 - val_accuracy: 0.6994
+Epoch 6/25
+108/108 [==============================] - 6s 53ms/step - loss: 1.0922 - accuracy: 0.6881 - val_loss: 0.9780 - val_accuracy: 0.7154
+Epoch 7/25
+108/108 [==============================] - 6s 54ms/step - loss: 1.0266 - accuracy: 0.7015 - val_loss: 0.9258 - val_accuracy: 0.7277
+Epoch 8/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.9605 - accuracy: 0.7155 - val_loss: 0.8596 - val_accuracy: 0.7396
+Epoch 9/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.9052 - accuracy: 0.7280 - val_loss: 0.8070 - val_accuracy: 0.7521
+Epoch 10/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.8562 - accuracy: 0.7388 - val_loss: 0.7719 - val_accuracy: 0.7616
+Epoch 11/25
+108/108 [==============================] - 6s 54ms/step - loss: 0.8149 - accuracy: 0.7491 - val_loss: 0.7254 - val_accuracy: 0.7744
+Epoch 12/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.7785 - accuracy: 0.7590 - val_loss: 0.6921 - val_accuracy: 0.7855
+Epoch 13/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.7272 - accuracy: 0.7738 - val_loss: 0.6445 - val_accuracy: 0.7993
+Epoch 14/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.6815 - accuracy: 0.7878 - val_loss: 0.5893 - val_accuracy: 0.8170
+Epoch 15/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.6372 - accuracy: 0.8001 - val_loss: 0.5452 - val_accuracy: 0.8303
+Epoch 16/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.5887 - accuracy: 0.8144 - val_loss: 0.5006 - val_accuracy: 0.8432
+Epoch 17/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.5507 - accuracy: 0.8260 - val_loss: 0.4609 - val_accuracy: 0.8563
+Epoch 18/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.5897 - accuracy: 0.8137 - val_loss: 0.4404 - val_accuracy: 0.8632
+Epoch 19/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.4862 - accuracy: 0.8457 - val_loss: 0.4020 - val_accuracy: 0.8756
+Epoch 20/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.4519 - accuracy: 0.8561 - val_loss: 0.3805 - val_accuracy: 0.8815
+Epoch 21/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.4231 - accuracy: 0.8649 - val_loss: 0.3451 - val_accuracy: 0.8912
+Epoch 22/25
+108/108 [==============================] - 6s 54ms/step - loss: 0.3942 - accuracy: 0.8738 - val_loss: 0.3191 - val_accuracy: 0.9001
+Epoch 23/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.3619 - accuracy: 0.8846 - val_loss: 0.2858 - val_accuracy: 0.9107
+Epoch 24/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.3398 - accuracy: 0.8921 - val_loss: 0.2637 - val_accuracy: 0.9203
+Epoch 25/25
+108/108 [==============================] - 6s 53ms/step - loss: 0.3164 - accuracy: 0.9012 - val_loss: 0.2504 - val_accuracy: 0.9254
+WARNING:tensorflow:6 out of the last 6 calls to &lt;function Model.make_predict_function.&lt;locals&gt;.predict_function at 0x7c50b5d9db20&gt; triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/1 [==============================] - 1s 1s/step
 Sample 1:
-il a vu un vieux camion rouge &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+il a vu un vieux camion jaune &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 Il a vu un vieux camion jaune
 Sample 2:
-new jersey est parfois calme pendant l'automne de il est est en en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
+new jersey est parfois calme pendant l' automne l' automne mais neigeux en avril en &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 new jersey est parfois calme pendant l' automne et il est neigeux en avril &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt; &lt;PAD&gt;
 </pre>
 </div>
@@ -8877,7 +8920,7 @@ $ python -m nbconvert machine_translation.ipynb
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Save before you run this cell!</span>
@@ -8892,7 +8935,7 @@ $ python -m nbconvert machine_translation.ipynb
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>["[NbConvertApp] WARNING | pattern 'nbconvert' matched no files",
  'Traceback (most recent call last):',
