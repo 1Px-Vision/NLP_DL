@@ -1,1 +1,23 @@
+Model 0: RNN
+model_0.h5
+model_0.pickle
 
+Model 1: RNN + TimeDistributed Dense
+model_1.h5
+model_1.pickle
+
+Model 2: CNN + RNN + TimeDistributed Dense
+model_2.h5
+model_2.pickle
+
+Model 3: Deeper RNN + TimeDistributed Dense
+model_3.h5
+model_3.pickle
+
+Model 4: Bidirectional RNN with TimeDistributed Dense Layer
+model_4.h5
+model_4.pickle
+
+Final Model
+model_end.h5
+model_end.pickle
