@@ -44,3 +44,5 @@ ChatBot Move Assignment Operator
 ChatBot Destructor
 ChatBot Destructor 
 ````
+# Included in this repository
+The project introduces the following modified files:
